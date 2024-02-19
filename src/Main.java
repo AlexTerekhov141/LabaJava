@@ -17,6 +17,9 @@ public class Main {
         System.out.println("First complex number:");
         first.Print();
         System.out.print("\n");
+        System.out.print("Trigonometric form first: ");
+        first.PrintTrigonometric();
+        System.out.print("\n");
         System.out.println("Second complex number:");
         second.Print();
         System.out.print("\n");
@@ -28,8 +31,6 @@ public class Main {
         System.out.println("Multiply: ");
         mulresult.Print();
         System.out.print("\n");
-        System.out.print("Trigonometric form: ");
-        first.PrintTrigonometric();
         Matrix m = new Matrix(0,0);
         System.out.println("First matrix: ");
         System.out.println("Rows: ");
